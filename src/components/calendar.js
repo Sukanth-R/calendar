@@ -518,7 +518,7 @@ const Calendar = () => {
                 <>
                   <button
                     onClick={prevMonth}
-                    className="p-2 rounded-full bg-white hover:bg-green-700/30 transition-all"
+                    className="p-2 rounded-full bg-white hover:bg-green-400/30 transition-all"
                   >
                     <svg className="h-5 sm:h-6 text-green-600 w-5 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -560,7 +560,7 @@ const Calendar = () => {
                   </div>
                   <button
                     onClick={nextMonth}
-                    className="p-2 rounded-full bg-white hover:bg-green-700/30 transition-all"
+                    className="p-2 rounded-full bg-white hover:bg-green-400/30 transition-all"
                   >
                     <svg className="h-5 sm:h-6 w-5 sm:w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -571,9 +571,9 @@ const Calendar = () => {
                 <>
                   <button
                     onClick={prevYear}
-                    className="p-2 rounded-full hover:bg-green-700/30 transition-all"
+                    className="p-2 rounded-full bg-white hover:bg-green-400/30 transition-all"
                   >
-                    <svg className="h-5 sm:h-6 w-5 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="h-5 sm:h-6 w-5 sm:w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                     </svg>
                   </button>
@@ -595,9 +595,9 @@ const Calendar = () => {
                   </div>
                   <button
                     onClick={nextYear}
-                    className="p-2 rounded-full hover:bg-green-700/30 transition-all"
+                    className="p-2 rounded-full bg-white hover:bg-green-400/30 transition-all"
                   >
-                    <svg className="h-5 sm:h-6 w-5 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="h-5 sm:h-6 w-5 sm:w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </button>
